@@ -1,0 +1,24 @@
+.parent {
+	display: flex;
+
+	overflow: hidden;
+}
+
+.sidebar {
+	width: 300px;
+	border-right: 1px dashed #006494;
+	color: white;
+	background-color: #003554;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100vh;
+}
+.main-layout {
+	width: 100%;
+	padding: 20px;
+	min-height: 100vh;
+	margin-left: 300px;
+	overflow: hidden;
+}
